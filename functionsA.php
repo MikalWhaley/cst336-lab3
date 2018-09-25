@@ -18,6 +18,7 @@ function generateDeck(){
             $card_count = $card_count + 1;
         }
     }
+        return $deck;
 }
 
 
@@ -70,5 +71,15 @@ function display(){
     
     return true;
 }
+function shuffleDeck($array[]){
+    shuffle($array);
+    return $array;
+    
+}
+function getHand(){
+    
+}
+
+
 
 ?>
