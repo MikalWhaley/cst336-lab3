@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html>
     <head>
-        <meta charset="utf-8"/>
-        <title> Home </title>
-        
+        <title> SilverJack </title>
+        <style>
+        </style>
     </head>
-
     <body>
-        <header>
-        </header>
+        <div id="main">
+            <?php
+                include 'functionsA.php';
+                play();
+            ?>
 
-        <main>
-            
-            
-            
-        </main>
+        </div>
+        
     </body>
 </html>
