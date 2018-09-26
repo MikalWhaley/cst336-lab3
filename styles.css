@@ -1,0 +1,56 @@
+body{
+    background-color: #EAF4EC
+}
+
+h1{
+    font-family: Helvetica, Sans-Serif;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#player{
+    height: 300;
+    width: 100;
+    float: left;
+}
+
+#output{
+    font-family: Helvetica, Sans-Serif;
+    color: black;
+    font-weight: bold;
+}
+
+#score{
+    text-align: right;
+}
+
+h2{
+    text-align: center;
+}
+
+
+figure.item{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+
+.caption{
+    display: block;
+}
+
+input{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-family: Helvetica, Sans-Serif;
+    font-weight: bold;
+    display: block;
+    
+}
